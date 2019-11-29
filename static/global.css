@@ -1,0 +1,127 @@
+body, html, #sapper{
+	height: 100%;
+	width: 100%;
+}
+
+/* Color Theme Swatches in Hex */
+.Tiyo-Soga-Book-Cover-1-hex { color: #BFBA9F; }
+.Tiyo-Soga-Book-Cover-2-hex { color: #A68F65; }
+.Tiyo-Soga-Book-Cover-3-hex { color: #F2E1C2; }
+.Tiyo-Soga-Book-Cover-4-hex { color: #735A3D; }
+.Tiyo-Soga-Book-Cover-5-hex { color: #8C4227; }
+
+/* Color Theme Swatches in RGBA */
+.Tiyo-Soga-Book-Cover-1-rgba { color: rgba(191, 186, 159, 1); }
+.Tiyo-Soga-Book-Cover-2-rgba { color: rgba(166, 143, 101, 1); }
+.Tiyo-Soga-Book-Cover-3-rgba { color: rgba(242, 225, 194, 1); }
+.Tiyo-Soga-Book-Cover-4-rgba { color: rgba(115, 90, 61, 1); }
+.Tiyo-Soga-Book-Cover-5-rgba { color: rgba(140, 66, 39, 1); }
+
+
+
+* { 
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: mandrel-normal, sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #261E14;
+	background-color:rgba(242, 225, 194, 0.5);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 1em 0 0 0;
+	padding: 0;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+
+h1 {
+	font-size: 2em;
+}
+
+
+
+a {
+	color: #8C4227;
+}
+
+a:hover {
+	color: #735A3D;
+}
+
+h1,
+  figure,
+  p {
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  p {
+    margin: 0 0 1em 0;
+  }
+
+
+  h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin: 0 0 0.5em 0;
+  }
+
+  figure {
+    margin: 0 0 1em 0;
+    max-width: 340px;
+    flex: 1 0 40%;
+  }
+
+
+
+  img {
+    width: 100%;
+    margin: 0 0 1em 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #666;
+  }
+
+  .row {
+    display: flex;
+    padding: 10px 20px;
+  }
+
+  .content {
+    padding: 0 30px;
+  }
+  .gallery{
+    width: 100%;
+  }
+
+  .gallery img{
+    max-width: 320px;
+    display:inline;
+    margin: 10px;
+  }
+
+  @media (max-width: 480px) {
+    .row {
+      display: block;
+      padding: 0;
+    }
+    .content{
+      padding: 0;
+    }
+
+    figure img{
+      min-width: 100%;
+    }
+    .gallery img{
+      min-width: auto;
+      width: 100%;
+      margin: 0;
+    }
+  }
