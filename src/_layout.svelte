@@ -36,17 +36,16 @@
 
 <main>
   <div class="page-container">
-    <a href="/">
-      <div class="header" />
+      <div class="header">
       {#if segment}
         <a href="/" class="home-link">home</a>
       {/if}
-    </a>
+      </div>
     <div class="content-container">
       <slot />
     </div>
     <a href="/">
-      <div class="footer" />
+      <div class="footer"></div>
     </a>
   </div>
 </main>

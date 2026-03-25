@@ -93,7 +93,7 @@
     </p>
     <p>
       <a
-        href="https://www.amazon.com/Literary-History-Joanne-Davis-author/dp/1868888282"
+        href="https://www.amazon.co.uk/Literary-History-Joanne-Davis-author/dp/1868888282"
         target="_blank">
         Buy the book now on Amazon
       </a>
@@ -130,6 +130,6 @@
       .
     </p>
 
-    <p><a target="_blank" href="/documents/Jo_Davis_cv_full_academic_2019.pdf">Latest CV</a></p>
+    <p><a target="_blank" href="/documents/Jo_Davis_cv_full_academic_2023-04.pdf">Latest CV</a></p>
   </div>
 </div>
